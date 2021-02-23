@@ -23,7 +23,7 @@ import com.github.erickluz.dto.UsuarioDTO;
 import com.github.erickluz.exception.AuthorizationException;
 import com.github.erickluz.exception.DataIntegrityException;
 import com.github.erickluz.exception.ObjectNotFoundException;
-import com.github.erickluz.service.UsuarioService;
+import com.github.erickluz.service.UserService;
 
 import io.netty.handler.codec.http.HttpResponseStatus;
 
@@ -33,7 +33,7 @@ import io.netty.handler.codec.http.HttpResponseStatus;
 public class UsuarioResource {
 
 	@Inject
-	UsuarioService service;
+	UserService service;
 	@Inject
 	Util util;
 	

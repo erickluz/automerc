@@ -18,7 +18,7 @@ import com.github.erickluz.repository.UsuarioRepository;
 @Produces(MediaType.APPLICATION_JSON)
 @Transactional
 @RequestScoped
-public class UsuarioService {
+public class UserService {
 
 	@Inject
 	UsuarioRepository dao;

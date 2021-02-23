@@ -30,5 +30,4 @@ public class ProductService {
 	public List<Product> findByName(String name, Long idUser) {
 		return dao.findByNameAndIdUser(name, idUser);
 	}
-
 }

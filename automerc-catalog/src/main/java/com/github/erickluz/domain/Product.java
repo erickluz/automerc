@@ -32,7 +32,7 @@ public class Product implements Serializable {
     public BigDecimal price;
     @JsonIgnore
     @ManyToOne(fetch = FetchType.EAGER, optional = false)
-    @JoinColumn(name="id_usuario", nullable = false)
+    @JoinColumn(name="idUser", nullable = false)
     public Long idUser;
 
     public Product(){
